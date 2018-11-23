@@ -1,0 +1,18 @@
+{
+  "name": "simplejsonutils",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["json","merge","map","get path","set path"],
+  "author": "Guillem Mateos <guillem.mateos@***REMOVED***>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "csvtomap": "^0.1.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
