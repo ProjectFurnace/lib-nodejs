@@ -1,4 +1,4 @@
-const simplejson = require('simplejsonutils');
+const simplejson = require('@project-furnace/simplejsonutils');
 
 /**
  * Walk through all keys of and event and map them to a new format specified by mapping.

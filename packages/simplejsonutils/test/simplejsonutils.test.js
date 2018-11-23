@@ -1,9 +1,5 @@
-// global define, it, describe
-
-'use strict';
-
 // tests for simplejsonutils
-const sju = require('./index');
+const sju = require('../index');
 
 describe('simplejsonutils', () => {
   const tObj1 = { a: { b: { c: 1 } } };

@@ -1,11 +1,16 @@
 {
-  "name": "csvtomap",
+  "name": "@project-furnace/csvtomap",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["map","csv","indexed","key value"],
+  "keywords": [
+    "map",
+    "csv",
+    "indexed",
+    "key value"
+  ],
   "author": "Guillem Mateos <guillem.mateos@***REMOVED***>",
   "license": "Apache-2.0",
   "description": "This module allows the creation of Maps based on CSV data. It can create maps of objects indexed by a specific column or just key-value ones.",

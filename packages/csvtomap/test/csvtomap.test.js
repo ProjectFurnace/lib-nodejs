@@ -1,8 +1,6 @@
-'use strict';
-
 // tests for csvtomap
 const path = require('path');
-const csvtomap = require('./index');
+const csvtomap = require('../index');
 
 const testIndexedCSV = path.resolve(__dirname, '__testassets__/test_indexed.csv');
 const testKeyValueCSV = path.resolve(__dirname, '__testassets__/test_keyvalue.csv');

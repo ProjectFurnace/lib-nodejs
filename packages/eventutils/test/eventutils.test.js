@@ -1,7 +1,5 @@
-'use strict';
-
 // tests for eventutils
-const eventutils = require('./index');
+const eventutils = require('../index');
 
 const testMapping = new Map();
 testMapping.set('a.b', 'ab');
