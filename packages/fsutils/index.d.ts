@@ -1,0 +1,1 @@
+export function exists(file: string): boolean;
