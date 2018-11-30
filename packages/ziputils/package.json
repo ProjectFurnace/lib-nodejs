@@ -1,0 +1,21 @@
+{
+  "name": "@project-furnace/ziputils",
+  "version": "0.1.0",
+  "description": "zip helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "zip"
+  ],
+  "author": "Danny Waite <danny.waite@***REMOVED***>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "@project-furnace/fsutils": "^0.1.3",
+    "archiver": "^3.0.0"
+  }
+}
