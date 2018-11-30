@@ -1,0 +1,1 @@
+export async function number(min: number, max: number): any;

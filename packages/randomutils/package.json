@@ -1,0 +1,20 @@
+{
+  "name": "@project-furnace/randomutils",
+  "version": "0.1.0",
+  "description": "random generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "zip"
+  ],
+  "author": "Danny Waite <danny.waite@***REMOVED***>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "random-number-csprng": "^1.0.2"
+  }
+}
