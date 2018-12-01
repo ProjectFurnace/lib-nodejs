@@ -1,6 +1,6 @@
 {
   "name": "@project-furnace/s3utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "s3 helper",
   "main": "index.js",
   "scripts": {
