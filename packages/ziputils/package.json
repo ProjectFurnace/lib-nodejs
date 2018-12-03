@@ -1,6 +1,6 @@
 {
   "name": "@project-furnace/ziputils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "zip helper",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "@project-furnace/fsutils": "^0.1.4",
+    "@project-furnace/fsutils": "^0.1.5",
     "archiver": "^3.0.0"
   }
 }
