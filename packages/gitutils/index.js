@@ -14,3 +14,8 @@ module.exports.pull = async (path) => {
     const git = require('simple-git/promise')(path);
     await git.pull();
 }
+
+module.exports.init = async (path) => {
+    const git = require('simple-git/promise')(path);
+    await git.init();
+}
