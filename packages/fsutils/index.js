@@ -41,3 +41,7 @@ module.exports.listDirectory = (dir) => {
 module.exports.stat = (file) => {
     return fs.lstatSync(file);
 }
+
+module.exports.readFile = (file) => {
+    return fs.readFileSync(file, "utf8");
+}

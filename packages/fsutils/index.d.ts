@@ -7,3 +7,4 @@ export function cp(src: string, dest: string): void;
 export function writeFile(file: string, contents: string): void;
 export function listDirectory(dir: string): string[];
 export function stat(file: string): any;
+export function readFile(file: string): any;

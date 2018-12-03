@@ -40,4 +40,17 @@ describe('fs', () => {
         });
     });
 
+    describe('readFile', () => {
+        it('should read file correctly', () => {
+            const file = fsUtil.createTempPath();
+            fsUtil.writeFile(file, "test file");
+            const found = fsUtil.exists(file);
+            expect(found).toBe(true);
+
+            const contents = fsUtil.readFile(file);
+
+            expect(contents).toBe("test file");
+        });
+    });
+
 });
