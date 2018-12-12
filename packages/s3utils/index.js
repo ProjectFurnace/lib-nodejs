@@ -4,8 +4,8 @@ const AWS = require('aws-sdk')
 
 let s3 = new AWS.S3();
 
-module.exports.setProfile = (profile) => {
-    AWS.config.credentials = new AWS.SharedIniFileCredentials({ profile });
+module.exports.setCredentials = (credentials) => {
+    AWS.config.credentials = credentials;
     s3 = new AWS.S3();
 }
 

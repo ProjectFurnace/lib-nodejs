@@ -29,7 +29,7 @@ function createIndexed(file, mappings, index, delimiter = ';') {
 
   try {
     // read CSV file
-    const lines = fs.readFileSync(file, 'utf8').split(/\n|\r/);
+    const lines = fs.readFileSync(file, 'utf8').split(/\r\n|\n|\r/);
 
     // if the column we want to use as index is non-existent throw an error
     if (lines[0].split(delimiter).length < index) throw new TypeError('Non-existent index column: '.concat(index));
@@ -84,7 +84,7 @@ function createKeyValue(file, delimiter = ';', comment = '#') {
 
   try {
     // read CSV file
-    const lines = fs.readFileSync(file, 'utf8').split('\n');
+    const lines = fs.readFileSync(file, 'utf8').split(/\r\n|\n|\r/);
 
     // loop through each line of the CSV file
     lines.forEach((line) => {
