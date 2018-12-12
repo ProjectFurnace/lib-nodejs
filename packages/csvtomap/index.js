@@ -95,7 +95,7 @@ function createKeyValue(file, delimiter = ';', comment = '#') {
       if (line.charAt(0) != comment) {
         // eslint-disable-next-line eqeqeq
         if (cols.length == 2) {
-          map.set(cols[0], cols[1]);
+          map.set(cols[0].trim(), cols[1].trim());
           // eslint-disable-next-line eqeqeq
         } else if (cols.length != 2) {
           throw new TypeError('Number of columns should be 2');

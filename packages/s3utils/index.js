@@ -2,7 +2,12 @@ const AWS = require('aws-sdk')
     , fs = require("fs")
     ;
 
-const s3 = new AWS.S3();
+let s3 = new AWS.S3();
+
+module.exports.setProfile = (profile) => {
+    AWS.config.credentials = new AWS.SharedIniFileCredentials({ profile });
+    s3 = new AWS.S3();
+}
 
 module.exports.createBucket = async (bucket, region) => {
     const result = await s3.createBucket({ 
