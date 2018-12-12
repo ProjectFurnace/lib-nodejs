@@ -88,7 +88,8 @@ function createKeyValue(file, delimiter = ';', comment = '#') {
 
     // loop through each line of the CSV file
     lines.forEach((line) => {
-      // split lines by delimiter and make sure it's either a comment or that we have only 2 columns before adding to map
+      // split lines by delimiter and make sure it's either a comment or that we have only 2 columns
+      // before adding to map
       const cols = line.split(delimiter);
 
       // eslint-disable-next-line eqeqeq
