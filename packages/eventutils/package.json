@@ -10,7 +10,7 @@
     "event",
     "walk"
   ],
-  "author": "Guillem Mateos <guillem.mateos@***REMOVED***>",
+  "author": "Guillem Mateos <guillem.mateos@furnace.org>",
   "license": "Apache-2.0",
   "dependencies": {
     "@project-furnace/simplejsonutils": "^0.1.1"
