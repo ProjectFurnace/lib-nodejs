@@ -11,7 +11,7 @@
     "indexed",
     "key value"
   ],
-  "author": "Guillem Mateos <guillem.mateos@***REMOVED***>",
+  "author": "Guillem Mateos <guillem.mateos@furnace.org>",
   "license": "Apache-2.0",
   "description": "This module allows the creation of Maps based on CSV data. It can create maps of objects indexed by a specific column or just key-value ones.",
   "devDependencies": {
