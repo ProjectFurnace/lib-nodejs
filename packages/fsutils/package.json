@@ -1,6 +1,6 @@
 {
   "name": "@project-furnace/fsutils",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "various utils for interacting with the file system",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "@project-furnace/eventutils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Basic functions to walk through objects and map them in a different way based on a specified mapping.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Guillem Mateos <guillem.mateos@furnace.org>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@project-furnace/simplejsonutils": "^0.1.1"
+    "@project-furnace/simplejsonutils": "^0.1.2"
   },
   "devDependencies": {
     "jest": "^23.6.0"

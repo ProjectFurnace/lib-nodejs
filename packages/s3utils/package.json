@@ -1,6 +1,6 @@
 {
   "name": "@project-furnace/s3utils",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "s3 helper",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "@project-furnace/fsutils": "^0.1.5",
-    "@project-furnace/randomutils": "^0.1.1",
+    "@project-furnace/fsutils": "^0.1.6",
+    "@project-furnace/randomutils": "^0.1.2",
     "aws-sdk": "^2.368.0"
   }
 }
