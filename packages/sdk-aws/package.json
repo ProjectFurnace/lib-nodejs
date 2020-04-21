@@ -12,5 +12,6 @@
   "devDependencies": {
     "aws-sdk": "^2.659.0",
     "jest": "^25.4.0"
-  }
+  },
+  "gitHead": "32672139f5f46b181b2d95f6903c5785e5bdd309"
 }
