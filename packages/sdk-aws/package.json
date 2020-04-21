@@ -1,0 +1,16 @@
+{
+  "name": "@project-furnace/sdk-aws",
+  "version": "0.1.0",
+  "description": "The Furnace NodeJS SDK for AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Danny Waite <danny.waite@furnace.org>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "aws-sdk": "^2.659.0",
+    "jest": "^25.4.0"
+  }
+}
