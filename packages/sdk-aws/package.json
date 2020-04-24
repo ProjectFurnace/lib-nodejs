@@ -1,6 +1,6 @@
 {
   "name": "@project-furnace/sdk-aws",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The Furnace NodeJS SDK for AWS",
   "main": "index.js",
   "scripts": {
