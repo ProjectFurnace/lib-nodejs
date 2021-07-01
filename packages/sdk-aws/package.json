@@ -4,7 +4,7 @@
   "description": "The Furnace NodeJS SDK for AWS",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "STACK_NAME=combinetest STACK_ENV=sandbox jest"
   },
   "keywords": [],
   "author": "Danny Waite <danny.waite@furnace.org>",
@@ -13,5 +13,8 @@
     "aws-sdk": "^2.659.0",
     "jest": "^25.4.0"
   },
-  "gitHead": "86f1aded731ac555f232d0ef717832cd79b0ab1c"
+  "gitHead": "86f1aded731ac555f232d0ef717832cd79b0ab1c",
+  "dependencies": {
+    "node-cache": "^5.1.2"
+  }
 }

@@ -3,15 +3,13 @@ const lookup = require("../lookup");
 describe("lookup", () => {
   describe("get", () => {
     it("should return single result", async () => {
-      const result = await lookup.get("lookup1", "key1");
+      const result = await lookup.get("lookup4", "key1");
       expect(result).toBeDefined();
-      console.log(result);
     });
 
     it("should return array of results", async () => {
       const result = await lookup.get("lookup2");
       expect(result).toBeInstanceOf(Array);
-      console.log(result);
     });
   });
 
