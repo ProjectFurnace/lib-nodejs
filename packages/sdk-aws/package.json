@@ -1,7 +1,7 @@
 {
   "name": "@project-furnace/sdk-aws",
   "version": "0.2.4",
-  "description": "The Furnace NodeJS SDK for AWS",
+  "description": "The Furnace NodeJS SDK for AWS.",
   "main": "index.js",
   "scripts": {
     "test": "STACK_NAME=combinetest STACK_ENV=sandbox jest"
