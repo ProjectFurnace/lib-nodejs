@@ -15,6 +15,6 @@
   "license": "Apache-2.0",
   "description": "This module allows the creation of Maps based on CSV data. It can create maps of objects indexed by a specific column or just key-value ones.",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^29.3.1"
   }
 }
