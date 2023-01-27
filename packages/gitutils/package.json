@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@project-furnace/fsutils": "^0.1.8",
-    "simple-git": "^1.107.0"
+    "simple-git": "^3.16.0"
   }
 }
